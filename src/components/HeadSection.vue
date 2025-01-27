@@ -17,7 +17,7 @@
                 {{ props.title }}
                 <span class="block h-3 w-3 bg-orange-400"></span>
             </h1>
-            <p v-if="props.note" class="text-lg">{{ props.note }}</p>
+            <p v-if="props.note">{{ props.note }}</p>
             <div v-if="$route.name === 'project'" class="flex items-center gap-6 text-sm uppercase">
                 <span>{{ props.date }}</span>
                 <a :href="props.link" target="_blank" class="hover:text-cyan-600 underline">Voir sur Github</a>
