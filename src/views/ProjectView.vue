@@ -14,7 +14,7 @@
     <section class="w-full my-10">
         <div class="w-full flex flex-col gap-6">
             <div class="w-full h-64 rounded-md shadow-md">
-                <img class="h-full w-full object-cover rounded-md" :src="`/src/assets/projects/${project.image}`" :alt="project.title">
+                <img class="h-full w-full object-cover rounded-md" :src="`src/assets/projects/${project.image}`" :alt="project.title">
             </div>
             <div>{{ project.description }}</div>
             <a :href="project.link" target="_blank" class="w-52 flex items-center justify-between bg-cyan-600 text-white font-medium py-2 px-3 rounded shadow-sm cursor-pointer hover:filter hover:brightness-110">
