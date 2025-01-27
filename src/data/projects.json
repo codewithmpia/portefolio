@@ -1,37 +1,128 @@
 [
     {
-        "slug": "coder-une-api-avec-flask",
-        "title": "Coder une api avec Flask",
+       "slug": "creation-d-un-site-de-e-commerce",
+       "title": "Création d'un site de e-commerce",
+       "image": "creer-un-site-de-ecommerce.jpg",
+       "link": "https://github.com/codewithmpia/flask_ecommerce",
+       "description": "Ce projet vise à développer un site de e-commerce complet, offrant une expérience utilisateur fluide et moderne pour la navigation, l'achat et la gestion des produits. Ce projet démontre mes compétences en développement web full-stack, en gestion de bases de données et en intégration de systèmes de paiement.",
+       "created_at": "30/07/2023",
+       "details": {
+            "objectif": "Concevoir et déployer un site de e-commerce fonctionnel avec des fonctionnalités clés telles que la gestion des utilisateurs, la gestion des produits, le panier d'achat, et le paiement en ligne sécurisé.",
+            "technos": ["Flask (Python)", "TailwindCSS", "AlpineJS", "MySqL"],
+            "fonctionnalites": [
+                "Gestion des utilisateurs",
+                "Gestion des produits",
+                "Panier et commandes",
+                "Paiement sécurisé"
+            ],
+            "approche_tech": [
+                "Création d’une architecture backend robuste pour gérer efficacement les requêtes client.",
+                "Utilisation de frameworks frontend pour une interface utilisateur responsive et interactive.",
+                "Mise en œuvre de tests unitaires et end-to-end pour garantir la fiabilité.",
+                "Sécurisation des données sensibles via le chiffrement (HTTPS, gestion des clés API)."
+            ]
+       },
+       "resultats": [
+            "Un site de e-commerce entièrement fonctionnel et prêt pour une utilisation en production.",
+            "Une interface utilisateur intuitive pour les clients et les administrateurs.",
+            "Une architecture sécurisée et performante, conforme aux standards de l’industrie.",
+            "Un guide d’installation et de maintenance pour une gestion facile du site."
+       ],
+       "conclusion": "Ce projet illustre mes compétences en développement full-stack, en intégration de systèmes tiers (paiement), et en conception d’applications web évolutives et sécurisées."
+    },
+
+    {
+        "slug": "realisation-d-une-api-avec-flask",
+        "title": "Réalisation d'une Api avec Flask",
         "image": "coder-une-api-avec-flask.jpeg",
-        "link": "https://github.com/codewithmpia/blogapi",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. "
-    },
-    {
-        "slug": "coder-une-extension-flask",
-        "title": "Coder une extension Flask",
-        "image": "coder-une-extension-flask.png",
         "link": "https://github.com/codewithmpia/flask_transcrypt",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. "
+        "description": "Ce projet met en avant mes compétences en développement backend grâce à la création d'une API RESTful avec Flask, un framework Python léger et performant.",
+        "created_at": "25/09/2024",
+        "details": {
+            "objectif": "Développer une API évolutive et sécurisée permettant d'interagir avec des données via des opérations CRUD (Create, Read, Update, Delete).",
+            "technos": ["Flask (Python)", "MySqL", "JWT", "Swagger"],
+            "fonctionnalites": [
+                "Gestion des utilisateurs avec des rôles et permissions.",
+                "Système d'authentification sécurisé.",
+                "Validation des données côté serveur avec Flask-WTF ou Marshmallow.",
+                "Journalisation des erreurs et suivi des activités."
+            ],
+            "approche_tech": [
+                "Structuration du projet en utilisant des Blueprints pour assurer une architecture modulaire et maintenable.",
+                "Intégration de tests unitaires et fonctionnels avec Pytest pour garantir la fiabilité de l'application.",
+                "Déploiement de l’API sur un serveur cloud (ex. : Heroku, AWS, ou Railway)."
+            ]
+        },
+        "resultats": [
+            "Une API prête pour une utilisation en production, dotée d’une documentation claire pour faciliter son intégration avec d'autres applications.",
+            "Un code conforme aux standards de l’industrie, facile à maintenir et à étendre."
+        ],
+        "conclusion": "Ce projet illustre ma maîtrise des technologies backend, ma capacité à concevoir des solutions sécurisées et performantes, ainsi que mon engagement envers les meilleures pratiques de développement."
     },
+
     {
-        "slug": "realiser-un-chatbot",
-        "title": "Réaliser un Chatbot",
+        "slug": "developpement-d-un-chatbot-intelligent",
+        "title": "Développement d'un Chatbot intelligent",
         "image": "realiser-un-chatbot.jpg",
         "link": "https://github.com/codewithmpia/chatbot",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. "
+        "description": "Ce projet consiste à concevoir et développer un chatbot interactif capable de répondre de manière intelligente aux requêtes des utilisateurs. Le chatbot peut être utilisé dans divers domaines, tels que le service client, l’éducation ou les applications personnelles. Ce projet met en avant mes compétences en traitement du langage naturel (NLP), en développement backend, et en intégration de systèmes interactifs.",
+        "created_at": "02/07/2024",
+        "details": {
+            "objectif": "Créer un chatbot performant et évolutif capable de comprendre et de répondre aux questions des utilisateurs de manière pertinente et contextuelle.",
+            "technos": ["Flask (Python)", "TensorFlow", "JavaScript", "Postgresql"],
+            "fonctionnalites": [
+                "Analyse syntaxique et sémantique pour comprendre les intentions de l'utilisateur",
+                "Génération de réponses basées sur des règles ou des modèles NLP pré-entraînés",
+                "Capacité à rechercher des informations dans une base de données ou des API externes",
+                "Adaptation des réponses en fonction de l'historique des interactions.",
+                "Possibilité d’intégrer des profils utilisateur",
+                "Tableau de bord pour visualiser les statistiques d’utilisation et améliorer la qualité des réponses"
+            ],
+            "approche_tech": [
+                "Mise en place d’un pipeline NLP pour analyser et traiter les requêtes utilisateur.",
+                "Intégration d’algorithmes de machine learning pour améliorer la compréhension contextuelle.",
+                "Création d’un système de gestion d’état pour suivre les conversations en cours",
+                "Mise en œuvre de tests utilisateurs pour évaluer la pertinence et l’expérience utilisateur"
+            ]
+        },
+        "resultats": [
+            "Un chatbot intelligent et polyvalent, capable de répondre aux besoins des utilisateurs dans divers contextes",
+            "Une interface utilisateur fluide et intuitive, avec des intégrations multiplateformes",
+            "Une solution évolutive et performante, adaptée à un usage en production",
+            "Documentation claire pour faciliter l’utilisation, la maintenance et l’évolution du projet"
+        ],
+        "conclusion": "Ce projet illustre mes compétences en intelligence artificielle, en développement web, et en création de solutions interactives pour améliorer l'expérience utilisateur."
     },
+
     {
-        "slug": "creer-un-site-de-ecommerce",
-        "title": "Coder un site de e-commerce avec Flask",
-        "image": "creer-un-site-de-ecommerce.jpg",
-        "link": "https://github.com/codewithmpia/chatbot",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. "
-    },
-    {
-        "slug": "les-bases-de-c",
-        "title": "Les bases du langage C",
-        "image": "les-bases-de-c.jpeg",
-        "link": "https://github.com/codewithmpia/parcours_c",
-        "description": "Pour bien apprendre et maîtriser le langage C, il est essentiel de s'exercer à travers des exercices et des projets progressifs. Voici une liste d'exercices et d'applications, organisés par niveaux de difficulté, pour développer vos compétences en C."
+        "slug": "creation-d-un-site-de-portfolio.jpeg",
+        "title": "Création d'un site de portfolio avec VueJS",
+        "image": "portefolio.jpeg",
+        "link": "https://github.com/codewithmpia/portefolio",
+        "description": "Développement d’un site web personnel de portfolio pour présenter mes compétences, mes projets et mon parcours en cours de formation. Ce site met en avant mes apprentissages et réalisations tout en permettant à mes enseignants ou camarades d'accéder facilement à mes travaux.",
+        "created_at": "01/01/2025",
+        "details": {
+            "objectif": "Créer un site de portfolio esthétique, responsive et optimisé, qui met en avant mon travail et mes projets académiques de manière professionnelle tout en offrant une navigation fluide et intuitive.",
+            "technos": ["Vue (Javascript)", "TailwindCSS", "Git", "Github"],
+            "fonctionnalites": [
+                "Un condensé de quelques projets réalisés ou participés",
+                "Sections dédiées aux compétences techniques et aux connaissances acquises",
+                "Un formulaire sécurisé permettant aux enseignants ou camarades de me contacter directement.",
+                "Adaptabilité totale sur différents appareils (ordinateurs, tablettes, smartphones)",
+                "Lien vers mes réseaux sociaux"
+            ],
+            "approche_tech": [
+                "Utilisation des principes de design UI/UX pour offrir une expérience utilisateur agréable.",
+                "Implémentation d'animations légères pour dynamiser la navigation.",
+                "Optimisation des performances avec la minification du code, le lazy loading des images, et le caching.",
+                "Tests cross-browser pour garantir la compatibilité avec les principaux navigateurs."
+            ]
+        },
+        "resultats": [
+            "Un site web professionnel et personnalisé, mettant en avant mes compétences et réalisations en cours de formation.",
+            "Un moyen efficace pour mes enseignants, camarades ou collaborateurs académiques de découvrir mon travail et de me contacter facilement.",
+            "Une plateforme évolutive que je peux mettre à jour pour refléter ma progression dans mes études et mes projets futurs."
+        ],
+        "conclusion": "Ce projet illustre ma capacité à concevoir et développer des interfaces web modernes, intuitives et adaptées à ma phase de formation et d’apprentissage."
     }
 ]
