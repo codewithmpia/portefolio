@@ -34,7 +34,7 @@ const truncateText = (text, limit) => text.length <= limit ? text : `${text.subs
         <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <template v-for="project in projectList" :key="project.slug">
                 <RouterLink :to="{ name: 'project', params: {slug: project.slug}}" class="relative rounded-md shadow-md group">
-                    <img class="h-full w-full object-cover rounded-md" :src="`src/assets/projects/${project.image}`" :alt="project.title" srcset="">
+                    <img class="h-full w-full object-cover rounded-md" :src="`projects/${project.image}`" :alt="project.title" srcset="">
                     <div class="absolute inset-x-0 bottom-0 flex items-center justify-center bg-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity rounded-b-md">
                         <span class="text-white text-sm p-2">{{ truncateText(project.title, 15) }}</span>
                     </div>
